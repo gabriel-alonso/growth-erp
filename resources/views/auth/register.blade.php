@@ -8,8 +8,7 @@
                 <x-guest-layout>
                     <x-jet-authentication-card>
                         <x-slot name="logo">
-                            <!-- LOGO -->
-                            <!--<x-jet-authentication-card-logo />-->
+                            <x-jet-authentication-card-logo />
                             <h2 class="h2 mt-3 mb-0">Criar Conta</h2>
                         </x-slot>
 
