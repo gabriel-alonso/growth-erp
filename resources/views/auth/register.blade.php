@@ -1,15 +1,16 @@
-<div class="container">
+<div class="container-fluid">
     <div class="row">
         <div class="col-7">
             <!-- IMAGEM -->
         </div>
-        <div class="col-5" style="background-color: #284ba0;">
+        <div class="col-5" style="background-color: #284ba0;padding: 90px;">
             <div>
                 <x-guest-layout>
                     <x-jet-authentication-card>
                         <x-slot name="logo">
-                            <x-jet-authentication-card-logo />
-                            <h2 class="h2 mt-3 mb-0">Criar Conta</h2>
+                            <!-- Logo -->
+                            <!--<x-jet-authentication-card-logo />-->
+                            <h2 class="h2 mt-3 mb-0 text-white text-center">Criar Conta</h2>
                         </x-slot>
 
                         <x-jet-validation-errors class="mb-4" />
@@ -107,7 +108,7 @@
                             @endif
 
                             <div class="flex items-center justify-end mt-4">
-                                <a class="underline text-sm text-gray-600 hover:text-gray-900"
+                                <a class="underline text-sm text-white-600 hover:text-gray-900 text-white"
                                     href="{{ route('login') }}">
                                     {{ __('Já é registrado?') }}
                                 </a>

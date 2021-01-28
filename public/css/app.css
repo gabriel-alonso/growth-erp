@@ -1961,14 +1961,14 @@ pre code {
   display: block;
   width: 100%;
   height: calc(1.6em + 0.75rem + 2px);
-  padding: 0.375rem 0.75rem;
+  padding: 1.275rem 0.75rem;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: none;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3391,11 +3391,11 @@ input[type=button].btn-block {
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: #284ba0;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
-  border: 1px solid #ced4da;
+  background-color: #efefef;
+  border: 1px solid white;
   border-radius: 0.25rem;
 }
 .input-group-text input[type=radio],
