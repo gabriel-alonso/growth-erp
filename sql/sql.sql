@@ -9,7 +9,7 @@
     PRIMARY KEY (user_idmigrationsmigrations)
 );*/
 
-SELECT * FROM USERS;
+#SELECT * FROM USERS;
 
 /*
 ALTER TABLE users RENAME COLUMN user_name TO name ;
